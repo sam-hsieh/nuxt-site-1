@@ -8,7 +8,7 @@ import { } from 'vue'
             <div class="flex md:flex-row flex-col">
                 <div class="md:basis-1/2">
                     <p class="mb-4 text-blue-600">WEB DESIGN FREELANCERS</p>
-                    <h1 class="text-4xl xl:text-6xl font-black md:mb-5 mb-2 font-mono">Power Your Freelance Web Business
+                    <h1 class="text-4xl xl:text-6xl font-black md:mb-5 mb-2 font-mono selection:bg-fuchsia-300">Power Your Freelance Web Business
                         With Divi</h1>
                     <h3 class="xl:text-2xl text-xl md:mb-5 mb-2 text-stone-400 text-white">Divi is the ultimate web design tool for
                         WordPress freelancers. Bring your ideas to life faster

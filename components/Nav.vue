@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
                         <NuxtLink to="/support">Support</NuxtLink>
                         <NuxtLink to="/price">price</NuxtLink>
                     </nav>
-                    <button id="nav-contact">Contact</button>
+                    <button id="nav-contact" @click="navStore.toggleContactForm()">Contact</button>
                 </div>
 
             </div>
@@ -86,6 +86,7 @@ onBeforeUnmount(() => {
     <div id="gotoTop" v-show="mainNavOverY" @click=scrollToTop>
         <Icon name="heroicons:chevron-up-16-solid" class="text-7xl " />
     </div>
+    <Contact></Contact>
 </template>
 
 <style scoped>
@@ -94,7 +95,8 @@ onBeforeUnmount(() => {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99999999;
+    z-index: 99;
+    /* height: 110px; */
     transition: all .3s cubic-bezier(.4, 0, .2, 1);
 }
 
@@ -125,6 +127,7 @@ onBeforeUnmount(() => {
 #main-nav.affixed {
     background-color: #fff;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    /* height: 80px; */
 }
 
 #main-nav.affixed .logo {
@@ -180,6 +183,7 @@ onBeforeUnmount(() => {
     cursor: pointer;
     color: rgba(0, 0, 0, 0.5)
 }
+
 
 @media (min-width:1024px) {
     #nav-contact:hover {
