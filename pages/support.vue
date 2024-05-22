@@ -1,5 +1,15 @@
 <script setup>
 import { } from 'vue'
+useSeoMeta({
+ title: "支援服務 - Nuxt3 初學練習網站",
+ description: "支援服務 - 練習Nuxt3時所架設的初學練習網站，內容使用部分假文字及其他網站圖片，如有侵權敬請見諒",
+ ogDescription: "支援服務 - 練習Nuxt3時所架設的初學練習網站，內容使用部分假文字及其他網站圖片，如有侵權敬請見諒",
+ ogTitle: "支援服務 - Nuxt3 初學練習網站",
+ ogImage: "",
+ twitterCard: "summary_large_image",
+ twitterSite: "",
+ twitterCreator: "",
+});
 </script>
 
 <template>

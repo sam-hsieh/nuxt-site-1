@@ -73,9 +73,9 @@ onBeforeUnmount(() => {
                     </div>
 
                     <nav>
-                        <NuxtLink to="/about">About</NuxtLink>
-                        <NuxtLink to="/support">Support</NuxtLink>
-                        <NuxtLink to="/price">price</NuxtLink>
+                        <NuxtLink to="/about" class="uppercase">About</NuxtLink>
+                        <NuxtLink to="/support" class="uppercase">Support</NuxtLink>
+                        <NuxtLink to="/products" class="uppercase">products</NuxtLink>
                     </nav>
                     <button id="nav-contact" @click="navStore.toggleContactForm()">Contact</button>
                 </div>
