@@ -3,8 +3,7 @@ import {} from 'vue'
 </script>
 <template>
     <Nav></Nav>
-    <slot>
-    </slot>
+    <NuxtPage />
     <Footer ref="footer"></Footer>
 </template>
 
