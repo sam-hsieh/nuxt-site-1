@@ -1,15 +1,4 @@
 <script setup>
-import { } from 'vue'
-useSeoMeta({
- title: "官網首頁(2) - Nuxt3 初學練習網站",
- description: "官網首頁 - 練習Nuxt3時所架設的初學練習網站，內容使用部分假文字及其他網站圖片，如有侵權敬請見諒",
- ogDescription: "官網首頁 - 練習Nuxt3時所架設的初學練習網站，內容使用部分假文字及其他網站圖片，如有侵權敬請見諒",
- ogTitle: "官網首頁 - Nuxt3 初學練習網站",
- ogImage: "",
- twitterCard: "summary_large_image",
- twitterSite: "",
- twitterCreator: "",
-});
 const { intersectionObserver, isIntersecting } = useIntersectionObserver()
 const EventIntro = ref(null)
 watch(isIntersecting, (newVal, prevVal) => {

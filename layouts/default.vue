@@ -1,10 +1,9 @@
 <script setup>
-import {} from 'vue'
 console.log('改為NuxtPage');
 </script>
 <template>
     <Nav></Nav>
-    <NuxtPage />
+   <slot></slot>
     <Footer ref="footer"></Footer>
 </template>
 
